@@ -3,9 +3,114 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
     <title>Home</title>
 </head>
 <body>
-    <h1>Hello World!</h1>
+
+    <nav>
+        <a href="#home" class="logo">MyPortfolio.</a>
+        <div class="nav-links">
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#education">Education</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
+
+    <section id="home">
+        <h1>Hi, I'm [Your Name]</h1>
+        <p>I am a creative [Your Profession/Role] passionate about building amazing things. Welcome to my personal slice of the internet.</p>
+        <a href="#contact" class="btn">Get In Touch</a>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <div class="container">
+            <p style="text-align: center; font-size: 1.1rem; color: var(--text-light); max-width: 800px; margin: 0 auto;">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+            </p>
+        </div>
+    </section>
+
+    <section id="skills" style="background-color: var(--white);">
+        <h2>My Skillsets</h2>
+        <div class="container">
+            <div class="skills-grid">
+                <div class="skill-tag">Random Skill 1</div>
+                <div class="skill-tag">Random Skill 2</div>
+                <div class="skill-tag">Random Skill 3</div>
+                <div class="skill-tag">Random Skill 4</div>
+                <div class="skill-tag">Random Skill 5</div>
+                <div class="skill-tag">Random Skill 6</div>
+                <div class="skill-tag">Random Skill 7</div>
+                <div class="skill-tag">Random Skill 8</div>
+            </div>
+        </div>
+    </section>
+
+    <section id="education">
+        <h2>Education & Experience</h2>
+        <div class="container">
+            <div class="timeline-item">
+                <h3>[Degree or Job Title]</h3>
+                <div class="date">[Institution or Company Name] | [Year - Year]</div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in dui mauris. Vivamus hendrerit arcu sed erat molestie vehicula.</p>
+            </div>
+            <div class="timeline-item">
+                <h3>[Previous Degree or Job Title]</h3>
+                <div class="date">[Institution or Company Name] | [Year - Year]</div>
+                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" style="background-color: var(--white);">
+        <h2>Featured Projects</h2>
+        <div class="container projects-grid">
+            
+            <div class="project-card">
+                <div class="project-img">[Image Placeholder]</div>
+                <div class="project-content">
+                    <h3>Project Title One</h3>
+                    <p>A brief description of what this project is, what technologies were used, and what you achieved.</p>
+                    <a href="#" style="color: var(--primary-color); text-decoration: none; font-weight: bold;">View Project &rarr;</a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-img">[Image Placeholder]</div>
+                <div class="project-content">
+                    <h3>Project Title Two</h3>
+                    <p>A brief description of what this project is, what technologies were used, and what you achieved.</p>
+                    <a href="#" style="color: var(--primary-color); text-decoration: none; font-weight: bold;">View Project &rarr;</a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-img">[Image Placeholder]</div>
+                <div class="project-content">
+                    <h3>Project Title Three</h3>
+                    <p>A brief description of what this project is, what technologies were used, and what you achieved.</p>
+                    <a href="#" style="color: var(--primary-color); text-decoration: none; font-weight: bold;">View Project &rarr;</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Let's Work Together</h2>
+        <div class="container">
+            <p style="margin-bottom: 2rem; color: var(--text-light);">I'm currently available for freelance work or full-time opportunities. Drop me a message!</p>
+            <a href="mailto:getenetjoseph@gmail.com" class="btn">Email Me</a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 [Your Name]. All rights reserved.</p>
+    </footer>
+
 </body>
 </html>
